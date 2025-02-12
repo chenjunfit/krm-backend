@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="BasicInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/namespae.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ClusterConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/cluster.go" />
+              <option value="file://$PROJECT_DIR$/controllers/namespace/namespace.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ClusterInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/cluster.go" />
+              <option value="file://$PROJECT_DIR$/controllers/namespace/namespace.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ClusterStatus">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/cluster.go" />
+              <option value="file://$PROJECT_DIR$/controllers/namespace/namespace.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Infor">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/models/namespae.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MyCustomClaims">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/utils/jwtutil/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ReturnData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/auth/auth.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/config/client_go_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739115520389" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739264654582" />
+              <option name="schema">
+                <list>
+                  <option value="ReturnData" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/auth/auth.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739084839661" />
+              <option name="schema">
+                <list>
+                  <option value="UserInfo" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739248481009" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/addorupdate.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739253628240" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/cluster.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739195456192" />
+              <option name="schema">
+                <list>
+                  <option value="ClusterConfig" />
+                  <option value="ClusterInfo" />
+                  <option value="ClusterStatus" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739253628170" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739250354714" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739253162194" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739248496064" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371193000" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371192991" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371192987" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371193003" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371192995" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371126398" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/contollers.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739284843297" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365563606" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365670282" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365670276" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365670266" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365670269" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365670272" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339820600" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339820606" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339820619" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339820610" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339820596" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339820614" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739331171138" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739331208359" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739331251215" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739331314981" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739331338101" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739330927962" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739331399481" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370736624" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370736630" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370736622" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370736616" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370736619" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370433439" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/initcontroller/incluster.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739254069982" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/initcontroller/initcontroller.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739171315899" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/initcontroller/metadatainit.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739171117526" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739267155138" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/addorupdate.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739266701715" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739266744433" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739267820435" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739266510493" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/namespace.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739252051604" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739267160631" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/node/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739367770670" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/node/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739367829659" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/node/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739367829663" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739284288509" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/cluster.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739269453865" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739287418118" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739287412629" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739287815234" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739287393439" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739287150829" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pv/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371716993" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pv/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371728377" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pv/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371788558" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pv/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371788562" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pv/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371788551" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pv/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371671139" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pvc/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371964023" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pvc/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371964017" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pvc/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371964031" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pvc/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371964028" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pvc/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371964020" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pvc/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371930253" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/replicaset/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739366853181" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/replicaset/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739366853178" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/replicaset/replicaset.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739366596729" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371522787" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371522799" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371522791" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371522784" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371522796" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371496842" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739369478630" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739369478641" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739369478624" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739369478634" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739369478637" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739369441851" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337821784" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337864351" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/deleteList.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337864357" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337864344" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337864354" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/update.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337864347" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/storageclass/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739372305983" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/storageclass/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739372299726" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/tmp/add.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739251294924" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/tmp/addorupdate.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739251343392" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/tmp/del.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739251343395" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/tmp/get.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739251356040" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/tmp/list.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739251343406" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739168663483" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/middlewares/auth/auth.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739084839656" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/cluster.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739175039351" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/models/namespae.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739287103595" />
+              <option name="schema">
+                <list>
+                  <option value="BasicInfo" />
+                  <option value="Infor" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/auth/auth.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739084839666" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/cluster/cluster.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739174668463" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/configmap/service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371295337" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/cronjob/cronjob.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739365726906" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/daemonset/daemonset.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739339722584" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/deployment/deployment.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739332305827" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/deployment/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739330927952" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/ingress/ingress.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370744806" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/namespace/namespace.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739251701822" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/node/node.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739367880738" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/pod/cluster.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739269509647" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/pod/pod.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370053870" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/pvc/pvc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739372013699" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/replicaset/replicaset.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739366964095" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739372027908" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/secret/secret.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371564223" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/service/pv.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739371788554" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/service/service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739370074783" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/routers/statefulset/deployment.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739337950668" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/jwtutil/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739084839651" />
+              <option name="schema">
+                <list>
+                  <option value="MyCustomClaims" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/logs/logs.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739084695601" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/utils.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739196447228" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="basic_info" value="BasicInfo" />
+        <entry key="cluster_config" value="ClusterConfig" />
+        <entry key="cluster_info" value="ClusterInfo" />
+        <entry key="cluster_status" value="ClusterStatus" />
+        <entry key="infor" value="Infor" />
+        <entry key="my_custom_claims" value="MyCustomClaims" />
+        <entry key="return_data" value="ReturnData" />
+        <entry key="user_info" value="UserInfo" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1739084722807" />
+  </component>
+</project>
