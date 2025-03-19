@@ -23,6 +23,8 @@ var (
 	ClientSet         *kubernetes.Clientset
 	ClusterKubeConfig map[string]string
 	ProtectNameSpace  []string
+
+	GIN_MODE string
 )
 
 type ReturnData struct {
@@ -43,11 +45,12 @@ func init() {
 	viper.SetDefault("PORT", ":8080")
 	viper.SetDefault("JWT_SIGN_KEY", "tiantianmoyu")
 	viper.SetDefault("JWT_EXPIRE_TIME", 1200000)
+	viper.SetDefault("GIN_MODE", "debug")
 	//admin,admin
 	viper.SetDefault("ADMIN_USER_NAME", "admin")
 	viper.SetDefault("ADMIN_PASSWORD", "admin")
 	viper.SetDefault("META_NAMESPACE", "meta-namespace")
-	viper.SetDefault("ProtectNameSpace", []string{"kube-system"})
+	viper.SetDefault("ProtectNameSpace", []string{"kube-system", "kube-flannel"})
 	viper.AutomaticEnv()
 	logLevel := viper.GetString("LOG_LEVEL")
 	Port = viper.GetString("PORT")
@@ -57,6 +60,7 @@ func init() {
 	AdminPassword = viper.GetString("ADMIN_PASSWORD")
 	MetaNamespace = viper.GetString("META_NAMESPACE")
 	ProtectNameSpace = viper.GetStringSlice("ProtectNameSpace")
+	GIN_MODE = viper.GetString("GIN_MODE")
 	initLogConfig(logLevel)
 }
 func initLogConfig(level string) {

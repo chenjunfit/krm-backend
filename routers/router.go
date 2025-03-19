@@ -9,14 +9,17 @@ import (
 	"krm-backend/routers/daemonset"
 	"krm-backend/routers/deployment"
 	"krm-backend/routers/ingress"
+	"krm-backend/routers/ingressclass"
 	"krm-backend/routers/namespace"
 	"krm-backend/routers/node"
 	"krm-backend/routers/pod"
 	service "krm-backend/routers/pv"
 	"krm-backend/routers/pvc"
 	"krm-backend/routers/replicaset"
+	"krm-backend/routers/secret"
 	pv "krm-backend/routers/service"
 	"krm-backend/routers/statefulset"
+	"krm-backend/routers/storageclass"
 )
 
 func RegisterRouters(r *gin.Engine) {
@@ -32,8 +35,11 @@ func RegisterRouters(r *gin.Engine) {
 	replicaset.RegisterSubRouter(apiGroup)
 	node.RegisterSubRouter(apiGroup)
 	service.RegisterSubRouter(apiGroup)
+	secret.RegisterSubRouter(apiGroup)
 	ingress.RegisterSubRouter(apiGroup)
+	ingressclass.RegisterSubRouter(apiGroup)
 	configmap.RegisterSubRouter(apiGroup)
 	pv.RegisterSubRouter(apiGroup)
 	pvc.RegisterSubRouter(apiGroup)
+	storageclass.RegisterSubRouter(apiGroup)
 }

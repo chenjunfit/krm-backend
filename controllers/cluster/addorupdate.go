@@ -27,6 +27,7 @@ func addOrUpdate(r *gin.Context, method string) {
 		return
 	}
 	clusterStatus, err := cluster.GetClusterStatus()
+
 	if err != nil {
 		logs.Error(map[string]interface{}{"msg": err.Error(), "cluseter_id": cluster.Id}, "获取集群状态失败")
 		msg := "集群连接不上: " + err.Error()

@@ -6,7 +6,7 @@ import (
 )
 
 func RegisterSubRouter(routerGroup *gin.RouterGroup) {
-	authGroup := routerGroup.Group("/pvc")
+	authGroup := routerGroup.Group("/persistentvolumeclaim")
 	Add(authGroup)
 	Del(authGroup)
 	DeleteList(authGroup)

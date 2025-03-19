@@ -1,0 +1,6 @@
+p, group_admin, /group/:id, GET
+p, group_admin, /group/:id, DELETE
+p, group_admin, /group/:id, PUT
+p, group_admin, /group, POST
+g, admin, group_admin
+p, dev,group_admin

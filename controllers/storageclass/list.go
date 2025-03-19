@@ -1,4 +1,4 @@
-package storage
+package storageclass
 
 import (
 	"github.com/dotbalo/kubeutils/kubeutils"

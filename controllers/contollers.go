@@ -7,6 +7,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"krm-backend/config"
 	"krm-backend/models"
+	"krm-backend/utils/logs"
 	"strings"
 )
 
@@ -22,6 +23,7 @@ func NewInfo(r *gin.Context, info *models.Infor, returnMsg string) (kubeconfig s
 	} else {
 		err = errors.New("不支持的方法: " + method)
 	}
+	logs.Info(map[string]interface{}{"msg:": info}, "列表")
 	if err != nil {
 		info.ReturnData.Message = "请求出错: " + err.Error()
 		info.ReturnData.Status = 400
