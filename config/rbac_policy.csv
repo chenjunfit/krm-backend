@@ -4,8 +4,3 @@ p, group_admin, /group/:id, PUT
 p, group_admin, /group, POST
 g, admin, group_admin
 g, dev,group_admin
-
-p, hmd, /hmd/:id, GET
-g, dev, hmd
-g, admin, hmd
-g, operator, hmd

@@ -12,10 +12,14 @@ func RegisterSubRouter(routerGroup *gin.RouterGroup) {
 	DeleteList(authGroup)
 	Get(authGroup)
 	List(authGroup)
+	Update(authGroup)
 
 }
 func Add(authGroup *gin.RouterGroup) {
 	authGroup.POST("/add", ingress.Add)
+}
+func Update(authGroup *gin.RouterGroup) {
+	authGroup.POST("/update", ingress.Update)
 }
 func Del(authGroup *gin.RouterGroup) {
 	authGroup.POST("/delete", ingress.Del)

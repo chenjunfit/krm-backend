@@ -13,12 +13,12 @@ func TestCasbinMysql(t *testing.T) {
 	a, _ := gormadapter.NewAdapter("mysql", "root:123456@tcp(121.199.44.128:3306)/")
 	e, err := casbin.NewEnforcer("./rbac_model.conf", a)
 	e.LoadPolicy()
-	rules := [][]string{
-		[]string{"admin", "/group/:id", "GET"},
-		[]string{"admin", "/group", "POST"},
-		[]string{"admin", "/group/:id", "PUT"},
-		[]string{"admin", "/group/:id", "DELETE"},
-	}
+	//rules := [][]string{
+	//	[]string{"admin", "/group/:id", "GET"},
+	//	[]string{"admin", "/group", "POST"},
+	//	[]string{"admin", "/group/:id", "PUT"},
+	//	[]string{"admin", "/group/:id", "DELETE"},
+	//}
 	//_, err = e.AddPolicies(rules)
 	//if err != nil {
 	//	log.Fatal(err)
