@@ -297,6 +297,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/restart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743685680053" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/daemonset/update.go">
           <value>
             <ScannedPath>
@@ -343,6 +350,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739331338101" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/restart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743685558389" />
             </ScannedPath>
           </value>
         </entry>
@@ -766,6 +780,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/statefulset/restart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743686003009" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/statefulset/update.go">
           <value>
             <ScannedPath>
@@ -859,14 +880,14 @@
         <entry key="file://$PROJECT_DIR$/routers/daemonset/daemonset.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739339722584" />
+              <option name="lastModified" value="1743685713692" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/routers/deployment/deployment.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739332305827" />
+              <option name="lastModified" value="1743683958730" />
             </ScannedPath>
           </value>
         </entry>
@@ -950,7 +971,7 @@
         <entry key="file://$PROJECT_DIR$/routers/statefulset/statefulset.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739337950668" />
+              <option name="lastModified" value="1743686006979" />
             </ScannedPath>
           </value>
         </entry>
