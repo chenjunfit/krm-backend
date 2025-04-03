@@ -157,6 +157,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/configmap/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743659219220" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/configmap/del.go">
           <value>
             <ScannedPath>
@@ -206,6 +213,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cronjob/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743659304255" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/cronjob/del.go">
           <value>
             <ScannedPath>
@@ -248,6 +262,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/daemonset/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743658776732" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/daemonset/del.go">
           <value>
             <ScannedPath>
@@ -287,6 +308,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739331171138" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/deployment/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743658342105" />
             </ScannedPath>
           </value>
         </entry>
@@ -392,6 +420,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739267155138" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743659333578" />
             </ScannedPath>
           </value>
         </entry>
@@ -591,6 +626,13 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/secret/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743659323782" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/secret/del.go">
           <value>
             <ScannedPath>
@@ -637,6 +679,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739369478630" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/service/copy.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1743659163930" />
             </ScannedPath>
           </value>
         </entry>
@@ -769,7 +818,7 @@
         <entry key="file://$PROJECT_DIR$/models/namespae.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739287103595" />
+              <option name="lastModified" value="1743652527841" />
               <option name="schema">
                 <list>
                   <option value="BasicInfo" />
@@ -838,7 +887,7 @@
         <entry key="file://$PROJECT_DIR$/routers/namespace/namespace.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739251701822" />
+              <option name="lastModified" value="1743650729154" />
             </ScannedPath>
           </value>
         </entry>

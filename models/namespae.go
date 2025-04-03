@@ -19,6 +19,12 @@ type Infor struct {
 	LabelSelector string            `json:"labelSelector"`
 	FieldSelector string            `json:"fieldSelector"`
 	ForceDelete   bool              `json:"forceDelete"`
+
+	//namespace copy field
+	ToClusterId     string              `json:"toClusterId" form:"toClusterId"`
+	ToNamespace     string              `json:"toNamespace" form:"toNamespace"`
+	CreateNamespace bool                `json:"createNamespace" form:"createNamespace"`
+	ToResources     map[string][]string `json:"toResources" form:"toResources"`
 }
 
 func (infor *Infor) Create(r *gin.Context, utilsinterface kubeutils.KubeUtilser) {
