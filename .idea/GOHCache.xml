@@ -202,7 +202,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/contollers.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742353951556" />
+              <option name="lastModified" value="1743930937882" />
             </ScannedPath>
           </value>
         </entry>
@@ -258,7 +258,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/daemonset/add.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739339820600" />
+              <option name="lastModified" value="1743931305460" />
             </ScannedPath>
           </value>
         </entry>
@@ -314,7 +314,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/deployment/add.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739331171138" />
+              <option name="lastModified" value="1743931725428" />
             </ScannedPath>
           </value>
         </entry>
@@ -531,7 +531,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/pod/list.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739287393439" />
+              <option name="lastModified" value="1743691649031" />
             </ScannedPath>
           </value>
         </entry>
@@ -727,7 +727,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/service/list.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739369478637" />
+              <option name="lastModified" value="1743927200134" />
             </ScannedPath>
           </value>
         </entry>
@@ -748,7 +748,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/statefulset/add.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739337821784" />
+              <option name="lastModified" value="1743931362621" />
             </ScannedPath>
           </value>
         </entry>
@@ -839,7 +839,7 @@
         <entry key="file://$PROJECT_DIR$/models/namespae.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1743652527841" />
+              <option name="lastModified" value="1743931641354" />
               <option name="schema">
                 <list>
                   <option value="BasicInfo" />

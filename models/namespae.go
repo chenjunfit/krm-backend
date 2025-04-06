@@ -10,15 +10,16 @@ type BasicInfo struct {
 	ClusterId  string      `json:"clusterId" form:"clusterId"`
 	NameSpace  string      `json:"nameSpace" form:"nameSpace"`
 	Name       string      `json:"name" form:"name"`
-	Item       interface{} `json:"item"`
-	DeleteList []string    `json:"deleteList"`
+	Item       interface{} `json:"item" form:"item"`
+	DeleteList []string    `json:"deleteList" form:"deleteList"`
 }
 type Infor struct {
 	BasicInfo
-	ReturnData    config.ReturnData `json:"returnData"`
-	LabelSelector string            `json:"labelSelector"`
-	FieldSelector string            `json:"fieldSelector"`
-	ForceDelete   bool              `json:"forceDelete"`
+	ReturnData        config.ReturnData `json:"returnData"`
+	LabelSelector     string            `json:"labelSelector" form:"labelSelector"`
+	FieldSelector     string            `json:"fieldSelector" form:"fieldSelector"`
+	ForceDelete       bool              `json:"forceDelete" form:"forceDelete"`
+	AutoCreateService bool              `json:"autoCreateService" form:"autoCreateService"`
 
 	//namespace copy field
 	ToClusterId     string              `json:"toClusterId" form:"toClusterId"`
@@ -30,7 +31,8 @@ type Infor struct {
 func (infor *Infor) Create(r *gin.Context, utilsinterface kubeutils.KubeUtilser) {
 	err := utilsinterface.Create(infor.NameSpace)
 	if err != nil {
-		infor.ReturnData.Message = "创建失败: " + err.Error()
+		msg := "创建失败: " + err.Error()
+		infor.ReturnData.Message += msg
 		infor.ReturnData.Status = 400
 	}
 	r.JSON(200, infor.ReturnData)
