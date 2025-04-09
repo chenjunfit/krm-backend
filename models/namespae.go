@@ -26,6 +26,15 @@ type Infor struct {
 	ToNamespace     string              `json:"toNamespace" form:"toNamespace"`
 	CreateNamespace bool                `json:"createNamespace" form:"createNamespace"`
 	ToResources     map[string][]string `json:"toResources" form:"toResources"`
+
+	//Apply bool   `json:"apply" form:"apply"`
+	Yaml   string `json:"yaml" form:"yaml"`
+	Method string `json:"method" form:"method"`
+
+	Container string `json:"container" form:"container"`
+	TailLines int64  `json:"tailLines" form:"tailLines"`
+
+	DefaultCommand string `json:"defaultCommand" form:"defaultCommand"`
 }
 
 func (infor *Infor) Create(r *gin.Context, utilsinterface kubeutils.KubeUtilser) {

@@ -59,6 +59,20 @@
             </set>
           </value>
         </entry>
+        <entry key="ptyHandler">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/pod/exec.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="wsMessage">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/pod/exec.go" />
+            </set>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="scannedPathMapping">
@@ -510,14 +524,27 @@
         <entry key="file://$PROJECT_DIR$/controllers/pod/del.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739287418118" />
+              <option name="lastModified" value="1744009009453" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/controllers/pod/deleteList.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739287412629" />
+              <option name="lastModified" value="1744008458903" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/exec.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744170100232" />
+              <option name="schema">
+                <list>
+                  <option value="wsMessage" />
+                  <option value="ptyHandler" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -532,6 +559,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1743691649031" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/pod/logs.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744087758106" />
             </ScannedPath>
           </value>
         </entry>
@@ -731,13 +765,6 @@
             </ScannedPath>
           </value>
         </entry>
-        <entry key="file://$PROJECT_DIR$/controllers/service/pod.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1739369441851" />
-            </ScannedPath>
-          </value>
-        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/service/update.go">
           <value>
             <ScannedPath>
@@ -808,24 +835,24 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/tools/tools.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744027594308" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742276516576" />
+              <option name="lastModified" value="1744025632125" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/middlewares/auth/auth.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739084839656" />
-            </ScannedPath>
-          </value>
-        </entry>
-        <entry key="file://$PROJECT_DIR$/middlewares/casbin/casbin.go">
-          <value>
-            <ScannedPath>
-              <option name="lastModified" value="1742478252199" />
+              <option name="lastModified" value="1744026750250" />
             </ScannedPath>
           </value>
         </entry>
@@ -839,7 +866,7 @@
         <entry key="file://$PROJECT_DIR$/models/namespae.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1743931641354" />
+              <option name="lastModified" value="1744107521846" />
               <option name="schema">
                 <list>
                   <option value="BasicInfo" />
@@ -922,7 +949,7 @@
         <entry key="file://$PROJECT_DIR$/routers/pod/pod.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739370053870" />
+              <option name="lastModified" value="1744118283516" />
             </ScannedPath>
           </value>
         </entry>
@@ -950,7 +977,7 @@
         <entry key="file://$PROJECT_DIR$/routers/router.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742370121042" />
+              <option name="lastModified" value="1743933211402" />
             </ScannedPath>
           </value>
         </entry>
@@ -982,6 +1009,27 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/routers/tools/tools.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744113768176" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/test/demo/websocket_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744022219831" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/test/websocket_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744022157203" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/utils/jwtutil/jwt.go">
           <value>
             <ScannedPath>
@@ -1008,6 +1056,34 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/../websocketDemo/controller/tools.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744023801501" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../websocketDemo/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744023836465" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../websocketDemo/routers/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744023790916" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/../websocketDemo/tools/tools.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744027321998" />
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
@@ -1018,10 +1094,12 @@
         <entry key="cluster_status" value="ClusterStatus" />
         <entry key="infor" value="Infor" />
         <entry key="my_custom_claims" value="MyCustomClaims" />
+        <entry key="pty_handler" value="ptyHandler" />
         <entry key="return_data" value="ReturnData" />
         <entry key="user_info" value="UserInfo" />
+        <entry key="ws_message" value="wsMessage" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1743329810172" />
+    <option name="lastTimeChecked" value="1743936545012" />
   </component>
 </project>

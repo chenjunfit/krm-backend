@@ -12,10 +12,18 @@ func RegisterSubRouter(routerGroup *gin.RouterGroup) {
 	DeleteList(authGroup)
 	Get(authGroup)
 	List(authGroup)
+	Log(authGroup)
+	Exec(authGroup)
 
 }
 func Add(authGroup *gin.RouterGroup) {
 	authGroup.POST("/add", pod.Add)
+}
+func Log(authGroup *gin.RouterGroup) {
+	authGroup.GET("/log", pod.Log)
+}
+func Exec(authGroup *gin.RouterGroup) {
+	authGroup.GET("/exec", pod.Exec)
 }
 func Del(authGroup *gin.RouterGroup) {
 	authGroup.POST("/delete", pod.Del)

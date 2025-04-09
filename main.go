@@ -8,13 +8,11 @@ import (
 	"krm-backend/middlewares/auth"
 	"krm-backend/middlewares/cors"
 	"krm-backend/routers"
-	"krm-backend/utils/logs"
 )
 
 func main() {
 	r := gin.Default()
 	if config.GIN_MODE == "debug" || config.GIN_MODE == "dev" {
-		logs.Info(map[string]interface{}{"message": "test"}, "中间件")
 		r.Use(cors.Cors)
 	}
 	r.Use(auth.JWTCheck)

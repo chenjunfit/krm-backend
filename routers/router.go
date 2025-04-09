@@ -20,6 +20,7 @@ import (
 	pv "krm-backend/routers/service"
 	"krm-backend/routers/statefulset"
 	"krm-backend/routers/storageclass"
+	"krm-backend/routers/tools"
 )
 
 func RegisterRouters(r *gin.Engine) {
@@ -42,4 +43,5 @@ func RegisterRouters(r *gin.Engine) {
 	pv.RegisterSubRouter(apiGroup)
 	pvc.RegisterSubRouter(apiGroup)
 	storageclass.RegisterSubRouter(apiGroup)
+	tools.RegisterSubRouter(apiGroup)
 }

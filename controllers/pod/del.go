@@ -13,6 +13,7 @@ func Del(r *gin.Context) {
 	pod := coreV1.Pod{}
 	info.Item = &pod
 	kubeconfig := controllers.NewInfo(r, &info, "删除成功")
+
 	var kubeUtilser kubeutils.KubeUtilser
 	instance := kubeutils.NewPod(kubeconfig, nil)
 	kubeUtilser = instance
