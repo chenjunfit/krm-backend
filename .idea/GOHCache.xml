@@ -31,6 +31,13 @@
             </set>
           </value>
         </entry>
+        <entry key="Edge">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/ingress/topology.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Infor">
           <value>
             <set>
@@ -42,6 +49,13 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/utils/jwtutil/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Node">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/ingress/topology.go" />
             </set>
           </value>
         </entry>
@@ -413,6 +427,19 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739370736619" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/ingress/topology.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744215206429" />
+              <option name="schema">
+                <list>
+                  <option value="Node" />
+                  <option value="Edge" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -918,10 +945,17 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/routers/ingress/Topology.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744193327595" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/routers/ingress/ingress.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1743428202805" />
+              <option name="lastModified" value="1744209442871" />
             </ScannedPath>
           </value>
         </entry>
@@ -1092,8 +1126,10 @@
         <entry key="cluster_config" value="ClusterConfig" />
         <entry key="cluster_info" value="ClusterInfo" />
         <entry key="cluster_status" value="ClusterStatus" />
+        <entry key="edge" value="Edge" />
         <entry key="infor" value="Infor" />
         <entry key="my_custom_claims" value="MyCustomClaims" />
+        <entry key="node" value="Node" />
         <entry key="pty_handler" value="ptyHandler" />
         <entry key="return_data" value="ReturnData" />
         <entry key="user_info" value="UserInfo" />

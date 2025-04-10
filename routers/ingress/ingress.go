@@ -13,10 +13,14 @@ func RegisterSubRouter(routerGroup *gin.RouterGroup) {
 	Get(authGroup)
 	List(authGroup)
 	Update(authGroup)
+	Topology(authGroup)
 
 }
 func Add(authGroup *gin.RouterGroup) {
 	authGroup.POST("/add", ingress.Add)
+}
+func Topology(authGroup *gin.RouterGroup) {
+	authGroup.GET("/topology", ingress.Topology)
 }
 func Update(authGroup *gin.RouterGroup) {
 	authGroup.POST("/update", ingress.Update)
