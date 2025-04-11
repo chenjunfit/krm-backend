@@ -13,10 +13,14 @@ func RegisterSubRouter(routerGroup *gin.RouterGroup) {
 	Get(authGroup)
 	List(authGroup)
 	Copy(authGroup)
+	Detail(authGroup)
 
 }
 func Copy(authGroup *gin.RouterGroup) {
 	authGroup.POST("/copy", namespace.Copy)
+}
+func Detail(authGroup *gin.RouterGroup) {
+	authGroup.GET("/detail", namespace.Detail)
 }
 func Add(authGroup *gin.RouterGroup) {
 	authGroup.POST("/add", namespace.Add)

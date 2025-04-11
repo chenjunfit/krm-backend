@@ -12,10 +12,18 @@ func RegisterSubRouter(routerGroup *gin.RouterGroup) {
 	Update(authGroup)
 	Get(authGroup)
 	List(authGroup)
+	Statics(authGroup)
+	Detail(authGroup)
 
 }
 func Add(authGroup *gin.RouterGroup) {
 	authGroup.POST("/add", cluster.Add)
+}
+func Detail(authGroup *gin.RouterGroup) {
+	authGroup.GET("/detail", cluster.Detail)
+}
+func Statics(authGroup *gin.RouterGroup) {
+	authGroup.GET("/statics", cluster.Statics)
 }
 func Del(authGroup *gin.RouterGroup) {
 	authGroup.GET("/delete", cluster.Del)

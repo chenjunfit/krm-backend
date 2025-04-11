@@ -10,6 +10,9 @@ import (
 	"krm-backend/utils/logs"
 )
 
+var ClusterStaticsMap map[string]map[string]int
+var FactoryStopMap map[string]chan struct{}
+
 func metaDataInit() {
 	logs.Debug(nil, "初始化元数据")
 	kubeconfig, err := clientcmd.BuildConfigFromFlags("", "./config/meta/kubeconfig.yml")
@@ -45,10 +48,13 @@ func metaDataInit() {
 	}
 	lists, _ := clientSet.CoreV1().Secrets(config.MetaNamespace).List(context.TODO(), options)
 	tmp := make([]string, 0)
+	ClusterStaticsMap = make(map[string]map[string]int)
+	FactoryStopMap = make(map[string]chan struct{})
 	for _, secret := range lists.Items {
 		clusterId := secret.Name
 		kubeconfig := secret.Data["kubeconfig"]
 		config.ClusterKubeConfig[clusterId] = string(kubeconfig)
+		go clusterStatics(clusterId, string(kubeconfig))
 		tmp = append(tmp, clusterId)
 	}
 	logs.Debug(map[string]interface{}{"当前集群配置": tmp}, "msg")

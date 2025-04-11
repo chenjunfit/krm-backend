@@ -17,6 +17,13 @@
             </set>
           </value>
         </entry>
+        <entry key="ClusterDetail">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/detail.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="ClusterInfo">
           <value>
             <set>
@@ -28,6 +35,13 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/controllers/cluster/cluster.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Color">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/statics.go" />
             </set>
           </value>
         </entry>
@@ -59,10 +73,31 @@
             </set>
           </value>
         </entry>
+        <entry key="ResourceDetail">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/detail.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="ReturnData">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StaticsData">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/statics.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StaticsItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/controllers/cluster/statics.go" />
             </set>
           </value>
         </entry>
@@ -157,6 +192,18 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/detail.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744379012444" />
+              <option name="schema">
+                <list>
+                  <option value="ResourceDetail" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/cluster/get.go">
           <value>
             <ScannedPath>
@@ -168,6 +215,19 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739253162194" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/cluster/statics.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744291495815" />
+              <option name="schema">
+                <list>
+                  <option value="StaticsData" />
+                  <option value="StaticsItem" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -457,17 +517,24 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/initcontroller/clusterStatics.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744290362738" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/controllers/initcontroller/incluster.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739254069982" />
+              <option name="lastModified" value="1744285282652" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/controllers/initcontroller/initcontroller.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739171315899" />
+              <option name="lastModified" value="1744284840171" />
             </ScannedPath>
           </value>
         </entry>
@@ -489,6 +556,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1739266744433" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/controllers/namespace/detail.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744382210942" />
             </ScannedPath>
           </value>
         </entry>
@@ -913,7 +987,7 @@
         <entry key="file://$PROJECT_DIR$/routers/cluster/cluster.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739174668463" />
+              <option name="lastModified" value="1744382791810" />
             </ScannedPath>
           </value>
         </entry>
@@ -969,7 +1043,7 @@
         <entry key="file://$PROJECT_DIR$/routers/namespace/namespace.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1743650729154" />
+              <option name="lastModified" value="1744379127069" />
             </ScannedPath>
           </value>
         </entry>
@@ -1124,14 +1198,19 @@
       <map>
         <entry key="basic_info" value="BasicInfo" />
         <entry key="cluster_config" value="ClusterConfig" />
+        <entry key="cluster_detail" value="ClusterDetail" />
         <entry key="cluster_info" value="ClusterInfo" />
         <entry key="cluster_status" value="ClusterStatus" />
+        <entry key="color" value="Color" />
         <entry key="edge" value="Edge" />
         <entry key="infor" value="Infor" />
         <entry key="my_custom_claims" value="MyCustomClaims" />
         <entry key="node" value="Node" />
         <entry key="pty_handler" value="ptyHandler" />
+        <entry key="resource_detail" value="ResourceDetail" />
         <entry key="return_data" value="ReturnData" />
+        <entry key="statics_data" value="StaticsData" />
+        <entry key="statics_item" value="StaticsItem" />
         <entry key="user_info" value="UserInfo" />
         <entry key="ws_message" value="wsMessage" />
       </map>
