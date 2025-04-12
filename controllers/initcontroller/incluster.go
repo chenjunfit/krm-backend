@@ -5,6 +5,7 @@ import (
 	coreV1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
+	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
 	"krm-backend/config"
 	"krm-backend/utils/logs"
@@ -15,11 +16,18 @@ var FactoryStopMap map[string]chan struct{}
 
 func metaDataInit() {
 	logs.Debug(nil, "初始化元数据")
-	kubeconfig, err := clientcmd.BuildConfigFromFlags("", "./config/meta/kubeconfig.yml")
-	if err != nil {
-		logs.Error(map[string]interface{}{"msg: ": err.Error()}, "incluster kubeconfig加载失败")
-		panic(err.Error())
+	var kubeconfig *rest.Config
+	var err error
+	if config.InCluster == "true" {
+		kubeconfig, err = rest.InClusterConfig()
+	} else {
+		kubeconfig, err = clientcmd.BuildConfigFromFlags("", "./config/meta/kubeconfig.yml")
+		if err != nil {
+			logs.Error(map[string]interface{}{"msg: ": err.Error()}, "创建restconfig加载失败")
+			panic(err.Error())
+		}
 	}
+
 	//创建client
 	clientSet, err := kubernetes.NewForConfig(kubeconfig)
 	if err != nil {

@@ -12,7 +12,7 @@ import (
 
 func main() {
 	r := gin.Default()
-	if config.GIN_MODE == "debug" || config.GIN_MODE == "dev" {
+	if config.GinMode == "debug" || config.GinMode == "dev" {
 		r.Use(cors.Cors)
 	}
 	r.Use(auth.JWTCheck)

@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: krm-backend
+  namespace: krm
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: krm-backend
+  template:
+    metadata:
+      labels:
+        app: krm-backend
+    spec:
+      serviceAccountName: krm-backend
+      containers:
+        - name: krm-backend
+          image: registry.cn-hangzhou.aliyuncs.com/cj_dev/krm-backend:v3
+          ports:
+            - containerPort: 8080
+          env:
+            - name: IN_CLUSTER
+              value: "true"

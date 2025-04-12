@@ -24,7 +24,8 @@ var (
 	ClusterKubeConfig map[string]string
 	ProtectNameSpace  []string
 
-	GIN_MODE string
+	GinMode   string
+	InCluster string
 )
 
 type ReturnData struct {
@@ -41,6 +42,7 @@ func NewReturnData() ReturnData {
 }
 
 func init() {
+	viper.AutomaticEnv()
 	viper.SetDefault("LOG_LEVEL", "debug")
 	viper.SetDefault("PORT", ":8080")
 	viper.SetDefault("JWT_SIGN_KEY", "tiantianmoyu")
@@ -51,7 +53,7 @@ func init() {
 	viper.SetDefault("ADMIN_PASSWORD", "admin")
 	viper.SetDefault("META_NAMESPACE", "meta-namespace")
 	viper.SetDefault("ProtectNameSpace", []string{"kube-system", "kube-flannel"})
-	viper.AutomaticEnv()
+	viper.SetDefault("IN_CLUSTER", "false")
 	logLevel := viper.GetString("LOG_LEVEL")
 	Port = viper.GetString("PORT")
 	JwtSignKey = viper.GetString("JWT_SIGN_KEY")
@@ -60,7 +62,8 @@ func init() {
 	AdminPassword = viper.GetString("ADMIN_PASSWORD")
 	MetaNamespace = viper.GetString("META_NAMESPACE")
 	ProtectNameSpace = viper.GetStringSlice("ProtectNameSpace")
-	GIN_MODE = viper.GetString("GIN_MODE")
+	GinMode = viper.GetString("GIN_MODE")
+	InCluster = viper.GetString("IN_CLUSTER")
 	initLogConfig(logLevel)
 }
 func initLogConfig(level string) {

@@ -136,7 +136,7 @@
         <entry key="file://$PROJECT_DIR$/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1742356503843" />
+              <option name="lastModified" value="1744455654586" />
               <option name="schema">
                 <list>
                   <option value="ReturnData" />
@@ -527,7 +527,7 @@
         <entry key="file://$PROJECT_DIR$/controllers/initcontroller/incluster.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1744285282652" />
+              <option name="lastModified" value="1744455168160" />
             </ScannedPath>
           </value>
         </entry>
@@ -946,7 +946,7 @@
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1744025632125" />
+              <option name="lastModified" value="1744454275363" />
             </ScannedPath>
           </value>
         </entry>
@@ -1121,6 +1121,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1744113768176" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/test/demo/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1744454849217" />
             </ScannedPath>
           </value>
         </entry>
